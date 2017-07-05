@@ -1,14 +1,16 @@
-This is a collection of example python command line scripts that interact with the google vision api. The objective was to create a simple command line python script that interacted with google's landmark detection feature. I was working along at this website : https://cloud.google.com/vision/docs/detecting-landmarks
+This is a collection of example python command line scripts that interact with the google vision api. The objective is to create a simple command line python script that interacts with google's landmark detection feature and machine learning vision api. This is a good link and primer/background. : https://cloud.google.com/vision/docs/detecting-landmarks
 
 The landmark.py script detects landmarks (eg: Mt Everest, Guggenheim) in a image served up at a url.
 
 
-
  Prerequisites /Setup your environment:
   1)Setup a Google cloud account so you can access the machine learning libraries
-  2)I used a google compute linux instance, load Python 2.7, install pip, (install google python libraries) pip install --upgrade google-cloud-vision, 
-  Goto the Google cloud management console and create a service account and generate a key. Download the key .json file to a directory on workstation 
+  2)I used a google compute linux instance, load Python 2.7, install pip, install google python libraries (pip install --upgrade google-cloud-vision) 
+  Goto the Google cloud management console and create a service account and generate a key. Download the key (.json) file to a directory on workstation 
   Define/export an environment variable "GOOGLE_APPLICATION_CREDENTIALS='path to your JSON service account file' so you can get authorized access to the API.
+  
+  
+  
   
   
   Very Work in progresss : Jacob Mathai
