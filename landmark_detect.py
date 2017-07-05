@@ -1,4 +1,7 @@
-#This python script loads a photo and performs landmark detection
+#This python script loads a photo and performs landmark detection via the google machnie learning vision API 
+#Please look at the README and https://cloud.google.com/vision/docs/other-features
+
+
 from google.cloud import vision
 
 client = vision.Client()
