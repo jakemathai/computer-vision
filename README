@@ -1,6 +1,7 @@
 This is a collection of example python command line scripts that interact with the google vision api. The objective is to create a simple command line python script that interacts with google's landmark detection feature and machine learning vision api. This is a good link and primer/background. : https://cloud.google.com/vision/docs/detecting-landmarks
 
-The landmark.py script detects landmarks (eg: Mt Everest, Guggenheim) in a image served up at a url.
+1)The landmark.py script detects landmarks (eg: Mt Everest, Guggenheim) in a image served up at a url.
+2)The label_detect script detects labels in your image.
 
 
  Prerequisites /Setup your environment:
