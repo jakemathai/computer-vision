@@ -2,6 +2,7 @@ This is a collection of example python command line scripts that interact with t
 
 1)The landmark.py script uses google's vision api to detect landmarks (eg: Mt Everest, Guggenheim) in a image served up at a url.
 2)The label_detect.py script uses google's visionapi to detect labels (eg: cat, dog, mountains) in your image.
+3)The text_detect.py script detects OCR/text within an image.
 
 
  Prerequisites /Setup your environment:
